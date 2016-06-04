@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DASDIET</title>
+</head>
+<body>
+{% for das in dasdiet %}
+    <h1>{{ das.title }}</h1>
+    <img src = "{{ das.img }}">
+    {{ das.description }}
+{% endfor %}
+
+</body>
+</html>
